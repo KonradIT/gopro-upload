@@ -3,7 +3,15 @@ gopro-upload
 
 Codes to auto upload gopro timelapse pictures to a local folder, to git(hub), to dropbox, ubuntu1 or ftp server.
 
-##Files
+##Shell scripts
 
-* (uploader-git.sh)[The Git or GitHub uploader] Make sure you have read the (uploader-git.md)[Git uploader instructions]
-* [uploader-local.sh](The local uploader)
+* [The Git or GitHub uploader](uploader-git.sh) Make sure you have read the [Git uploader instructions](uploader-git.md)
+* [The local directory uploader (also used for cloud uploading)](uploader-local.sh) Make sure you have read the [Local directory uploader instructions](uploader-local.md)
+
+###Cloud uploading
+
+Using [local directory uploader](uploader-local.sh) script can aslo upload the pictures to [ubuntu one](ubuntu1.md), [dropbox](dropbox.md), or [ftp server](ftp.md)
+
+###Details
+
+Its highly recommendable to set the uploading directory in a harddrive, because a gopro image in 12mp can vary from 2mb to 6mb.
