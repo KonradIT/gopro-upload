@@ -10,7 +10,7 @@ First, you will need to CD the directory where you want to save the pictures, so
 * When its on, release the shutter button and power button
 
 ####Next...
-* Install the (autoexec.ash)[hack]. Check (https://vimeo.com/91791285)[this] and (http://git.io/P76lMQ)[this]
+* Install the [hack](autoexec.ash). Check [this](https://vimeo.com/91791285) and [this](http://git.io/P76lMQ)
 
 ###Settings for your computer (using linux)
 * Install wget ```sudo apt-get install wget```
