@@ -14,3 +14,9 @@ First, you will need to CD the directory where you want to save the pictures, so
 
 ###Settings for your computer (using linux)
 * Install wget ```sudo apt-get install wget```
+
+###Script settings
+
+Change *GoPro_SSID* by the GoPro Wifi name that you typed when you updated the camera
+
+Change *GoPro_PASSWORD* by the GoPro Wifi password that you typed when you updated the camera
