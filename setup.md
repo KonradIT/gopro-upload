@@ -14,3 +14,6 @@
 * Install wget ```sudo apt-get install wget```
 * Install git ```sudo apt-get install git```
 
+##Internet
+
+You need an ethernet cable connected to a router in order to be connected to the gopro wifi and to the internet at the same time.
