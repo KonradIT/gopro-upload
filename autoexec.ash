@@ -7,14 +7,14 @@ t app led red_front on
 t app led red_back on
 sleep 1
 t app button wifi PR
-sleep 40
+sleep 30
 t app button wifi P
 sleep 3
 t app button wifi R
 sleep 1
 t app led red_front off
 t app led red_back off
-sleep 30
+sleep 1
 deletedir d:\DCIM
 sleep 1
 reboot yes
