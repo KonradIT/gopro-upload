@@ -1,6 +1,8 @@
 sleep 1
 t app appmode photo
 sleep 1
+t app photo_size 5M
+sleep 1
 t app button shutter PR
 sleep 4
 t app led red_front on
