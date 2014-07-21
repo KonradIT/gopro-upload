@@ -10,7 +10,7 @@
 ####Next...
 * Install the [hack](autoexec.ash). Check [this](https://vimeo.com/91791285) and [this](http://git.io/P76lMQ)
 
-The hack will take a picture every 2 minutes. To ensure correct upload.
+The hack will take a picture every 1 minute. To ensure correct upload.
 
 ###Settings for your computer (using linux)
 * Install wget ```sudo apt-get install wget```
