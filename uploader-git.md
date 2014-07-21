@@ -10,3 +10,7 @@
 * then paste the uploader-git.sh into the command line **Remember to change the GoPro_SSID by the GoPro Wifi name and GoPro_PASSWORD by the GoPro Wifi password**
 
 Also, make sure you have installed the hack on your GoPro and that the computer has ethernet cable connection.
+
+###Test
+
+[test of git uploader](http://github.com/konradit/gopro-upload-tests)
