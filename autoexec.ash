@@ -9,7 +9,7 @@ t app led red_front on
 t app led red_back on
 sleep 1
 t app button wifi PR
-sleep 30
+sleep 60
 t app button wifi P
 sleep 3
 t app button wifi R
