@@ -19,8 +19,4 @@ Read the [setup page](setup.md) on how to set up your gopro and your computer
 
 ###Details
 
-Its highly recommendable to set the uploading directory in a harddrive, because a gopro image in 12mp can vary from 2mb to 6mb.
-
-###Tests
-
-[See that it works and how it works](http://github.com/konradit/gopro-upload-tests)
+Its highly recommendable to set the uploading directory in a harddrive
