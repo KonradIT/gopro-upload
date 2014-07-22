@@ -1,16 +1,18 @@
 #Imgur Uploader
 
-First, [open this URL](https://api.imgur.com/oauth2/authorize?client_id=2a6461f7adb23c0&response_type=pin)
+First, go to the home folder and turn on the option to show the hidden files, scroll to **.bashrc** and open it with gedit or other text editor
 
-Then, sign in and copy the PIN, in the code below, copy it, paste into the command line **but replace PIN by the pin you copied before**
+Add this to the file:
 
 ```
-curl -X POST -F "client_id=2a6461f7adb23c0" -F "client_secret=2a3fd9696ac2941acb91c1cb4c2ef7b72d5e34b5" -F "grant_type=pin" -F "pin=PIN" https://api.imgur.com/oauth2/token
+imgur(){
+for i in "$@";do
+curl -# -F "image"=@"$i" -F "key"="4907fcd89e761c6b07eeb8292d5a9b2a" http://imgur.com/api/upload.xml|\
+grep -Eo '<[a-z_]+>http[^<]+'|sed 's/^<.\|_./\U&/g;s/_/ /;s/<\(.*\)>/\x1B[0;34m\1:\x1B[0m /'
+done
+}
 ```
 
-In the shell code, replace TOKEN by the code that the command above will throw you.
+Then type ```bash``` and hit enter
 
-####Details:
-
-Client ID: 2a6461f7adb23c0
-Client secret: 2a3fd9696ac2941acb91c1cb4c2ef7b72d5e34b5
+Then you are ready to go. The images will be stored in a anonymous acount but the code will write text files with date where it will store the imgur image link
